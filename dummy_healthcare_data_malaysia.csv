@@ -1,0 +1,1001 @@
+PatientID,State,Condition,AgeGroup,Gender,CasesReported,DateReported
+1,Penang,Dengue,46-60,Male,27,1/1/2021
+2,Malacca,Diabetes,31-45,Female,8,1/2/2021
+3,Terengganu,COVID-19,61+,Female,83,1/3/2021
+4,Labuan,COVID-19,0-18,Male,65,1/4/2021
+5,Sarawak,COVID-19,61+,Female,57,1/5/2021
+6,Perak,COVID-19,0-18,Female,93,1/6/2021
+7,Terengganu,Heart Diseases,19-30,Male,99,1/7/2021
+8,Negeri Sembilan,COVID-19,0-18,Male,40,1/8/2021
+9,Penang,Heart Diseases,46-60,Male,14,1/9/2021
+10,Sabah,Heart Diseases,31-45,Female,35,1/10/2021
+11,Kelantan,COVID-19,19-30,Male,48,1/11/2021
+12,Penang,COVID-19,0-18,Female,84,1/12/2021
+13,Sarawak,Dengue,61+,Male,56,1/13/2021
+14,Sarawak,Diabetes,19-30,Male,49,1/14/2021
+15,Perak,COVID-19,19-30,Male,13,1/15/2021
+16,Negeri Sembilan,Dengue,0-18,Female,61,1/16/2021
+17,Malacca,Dengue,19-30,Female,49,1/17/2021
+18,Perak,Diabetes,61+,Male,46,1/18/2021
+19,Perak,Heart Diseases,19-30,Male,62,1/19/2021
+20,Kelantan,COVID-19,61+,Male,8,1/20/2021
+21,Pahang,Diabetes,0-18,Female,43,1/21/2021
+22,Negeri Sembilan,COVID-19,31-45,Male,20,1/22/2021
+23,Kedah,Dengue,19-30,Female,97,1/23/2021
+24,Perak,Dengue,31-45,Male,90,1/24/2021
+25,Selangor,Heart Diseases,61+,Male,39,1/25/2021
+26,Kuala Lumpur,Dengue,19-30,Male,85,1/26/2021
+27,Pahang,Dengue,46-60,Male,49,1/27/2021
+28,Kedah,Diabetes,31-45,Male,64,1/28/2021
+29,Putrajaya,COVID-19,19-30,Male,62,1/29/2021
+30,Selangor,COVID-19,31-45,Female,54,1/30/2021
+31,Negeri Sembilan,Diabetes,19-30,Male,9,1/31/2021
+32,Johor,Heart Diseases,0-18,Female,88,2/1/2021
+33,Selangor,COVID-19,31-45,Male,37,2/2/2021
+34,Sabah,Dengue,46-60,Male,49,2/3/2021
+35,Pahang,COVID-19,46-60,Female,41,2/4/2021
+36,Terengganu,Dengue,61+,Male,17,2/5/2021
+37,Selangor,Heart Diseases,19-30,Female,88,2/6/2021
+38,Perlis,Diabetes,31-45,Female,21,2/7/2021
+39,Johor,COVID-19,61+,Male,51,2/8/2021
+40,Sarawak,Diabetes,31-45,Female,59,2/9/2021
+41,Sarawak,COVID-19,19-30,Female,39,2/10/2021
+42,Labuan,Dengue,46-60,Male,55,2/11/2021
+43,Sabah,Diabetes,0-18,Female,41,2/12/2021
+44,Putrajaya,COVID-19,46-60,Male,39,2/13/2021
+45,Selangor,Dengue,61+,Male,13,2/14/2021
+46,Selangor,Diabetes,0-18,Male,64,2/15/2021
+47,Putrajaya,Diabetes,61+,Male,11,2/16/2021
+48,Labuan,COVID-19,19-30,Female,19,2/17/2021
+49,Kuala Lumpur,COVID-19,0-18,Male,11,2/18/2021
+50,Kuala Lumpur,COVID-19,61+,Male,77,2/19/2021
+51,Labuan,Dengue,19-30,Female,46,2/20/2021
+52,Kuala Lumpur,COVID-19,46-60,Male,45,2/21/2021
+53,Kelantan,Diabetes,19-30,Male,1,2/22/2021
+54,Selangor,Diabetes,31-45,Female,40,2/23/2021
+55,Penang,COVID-19,19-30,Female,19,2/24/2021
+56,Malacca,COVID-19,19-30,Female,76,2/25/2021
+57,Putrajaya,Heart Diseases,31-45,Female,72,2/26/2021
+58,Perlis,Diabetes,61+,Female,72,2/27/2021
+59,Kelantan,Dengue,61+,Female,61,2/28/2021
+60,Negeri Sembilan,Heart Diseases,19-30,Female,12,3/1/2021
+61,Kelantan,COVID-19,31-45,Male,61,3/2/2021
+62,Penang,COVID-19,31-45,Female,33,3/3/2021
+63,Negeri Sembilan,Diabetes,46-60,Female,45,3/4/2021
+64,Perlis,COVID-19,61+,Female,90,3/5/2021
+65,Penang,Dengue,0-18,Male,92,3/6/2021
+66,Kedah,Diabetes,61+,Male,69,3/7/2021
+67,Malacca,COVID-19,61+,Female,8,3/8/2021
+68,Perlis,Diabetes,46-60,Female,25,3/9/2021
+69,Selangor,COVID-19,0-18,Female,91,3/10/2021
+70,Kuala Lumpur,COVID-19,46-60,Male,46,3/11/2021
+71,Kedah,COVID-19,0-18,Male,87,3/12/2021
+72,Sabah,Dengue,19-30,Female,30,3/13/2021
+73,Perlis,Dengue,0-18,Male,47,3/14/2021
+74,Sabah,Diabetes,46-60,Female,87,3/15/2021
+75,Negeri Sembilan,COVID-19,61+,Male,49,3/16/2021
+76,Kedah,COVID-19,0-18,Male,47,3/17/2021
+77,Malacca,Dengue,0-18,Female,84,3/18/2021
+78,Selangor,COVID-19,31-45,Female,82,3/19/2021
+79,Labuan,Dengue,61+,Female,18,3/20/2021
+80,Selangor,COVID-19,19-30,Female,66,3/21/2021
+81,Penang,Diabetes,46-60,Male,68,3/22/2021
+82,Selangor,COVID-19,19-30,Male,94,3/23/2021
+83,Terengganu,COVID-19,61+,Male,33,3/24/2021
+84,Perak,Heart Diseases,0-18,Female,36,3/25/2021
+85,Labuan,Dengue,0-18,Male,82,3/26/2021
+86,Kelantan,COVID-19,61+,Female,19,3/27/2021
+87,Kuala Lumpur,COVID-19,0-18,Male,28,3/28/2021
+88,Johor,Heart Diseases,0-18,Female,40,3/29/2021
+89,Malacca,Heart Diseases,0-18,Female,84,3/30/2021
+90,Kedah,Dengue,46-60,Male,97,3/31/2021
+91,Perak,Heart Diseases,46-60,Female,76,4/1/2021
+92,Malacca,Diabetes,31-45,Female,15,4/2/2021
+93,Kedah,Heart Diseases,19-30,Male,41,4/3/2021
+94,Kuala Lumpur,Diabetes,61+,Female,39,4/4/2021
+95,Pahang,Dengue,61+,Female,2,4/5/2021
+96,Pahang,Dengue,61+,Female,63,4/6/2021
+97,Sabah,Dengue,31-45,Male,29,4/7/2021
+98,Malacca,Dengue,46-60,Male,74,4/8/2021
+99,Pahang,Dengue,31-45,Female,66,4/9/2021
+100,Terengganu,Diabetes,61+,Male,51,4/10/2021
+101,Labuan,Diabetes,19-30,Female,75,4/11/2021
+102,Kedah,Dengue,0-18,Female,77,4/12/2021
+103,Sabah,Heart Diseases,46-60,Female,10,4/13/2021
+104,Selangor,COVID-19,46-60,Female,14,4/14/2021
+105,Kedah,Dengue,31-45,Female,82,4/15/2021
+106,Sabah,Heart Diseases,46-60,Male,51,4/16/2021
+107,Kuala Lumpur,COVID-19,61+,Female,73,4/17/2021
+108,Malacca,Dengue,61+,Male,39,4/18/2021
+109,Kuala Lumpur,Dengue,31-45,Male,28,4/19/2021
+110,Labuan,Diabetes,61+,Female,3,4/20/2021
+111,Putrajaya,COVID-19,19-30,Female,84,4/21/2021
+112,Labuan,COVID-19,31-45,Male,70,4/22/2021
+113,Perak,Heart Diseases,19-30,Male,27,4/23/2021
+114,Kuala Lumpur,Diabetes,0-18,Male,2,4/24/2021
+115,Penang,Diabetes,19-30,Female,93,4/25/2021
+116,Selangor,Diabetes,0-18,Male,38,4/26/2021
+117,Perlis,Diabetes,0-18,Female,3,4/27/2021
+118,Kuala Lumpur,COVID-19,19-30,Female,16,4/28/2021
+119,Perak,COVID-19,31-45,Female,94,4/29/2021
+120,Negeri Sembilan,Dengue,61+,Male,40,4/30/2021
+121,Putrajaya,Dengue,61+,Female,2,5/1/2021
+122,Terengganu,Diabetes,0-18,Female,81,5/2/2021
+123,Kedah,Diabetes,0-18,Female,41,5/3/2021
+124,Labuan,Diabetes,31-45,Female,12,5/4/2021
+125,Negeri Sembilan,Dengue,46-60,Female,35,5/5/2021
+126,Perak,Heart Diseases,19-30,Male,65,5/6/2021
+127,Sabah,Heart Diseases,0-18,Female,55,5/7/2021
+128,Perlis,Dengue,61+,Female,45,5/8/2021
+129,Selangor,Dengue,31-45,Male,79,5/9/2021
+130,Selangor,Dengue,19-30,Female,90,5/10/2021
+131,Selangor,Dengue,31-45,Male,85,5/11/2021
+132,Terengganu,Dengue,19-30,Female,62,5/12/2021
+133,Perlis,Dengue,19-30,Male,49,5/13/2021
+134,Terengganu,Diabetes,0-18,Male,95,5/14/2021
+135,Labuan,Diabetes,31-45,Female,25,5/15/2021
+136,Terengganu,Diabetes,31-45,Female,23,5/16/2021
+137,Johor,Diabetes,61+,Female,24,5/17/2021
+138,Perlis,Dengue,61+,Male,38,5/18/2021
+139,Penang,Heart Diseases,0-18,Male,28,5/19/2021
+140,Perlis,COVID-19,0-18,Male,21,5/20/2021
+141,Perak,Dengue,46-60,Female,54,5/21/2021
+142,Johor,COVID-19,61+,Male,18,5/22/2021
+143,Selangor,Heart Diseases,19-30,Male,36,5/23/2021
+144,Perak,Diabetes,31-45,Female,99,5/24/2021
+145,Perak,Heart Diseases,0-18,Male,45,5/25/2021
+146,Labuan,Dengue,31-45,Male,73,5/26/2021
+147,Sarawak,Diabetes,31-45,Female,53,5/27/2021
+148,Kelantan,Dengue,46-60,Male,30,5/28/2021
+149,Johor,Diabetes,61+,Female,60,5/29/2021
+150,Perak,COVID-19,0-18,Female,98,5/30/2021
+151,Kelantan,COVID-19,31-45,Female,32,5/31/2021
+152,Kelantan,COVID-19,0-18,Female,67,6/1/2021
+153,Johor,Heart Diseases,19-30,Female,67,6/2/2021
+154,Sarawak,Dengue,46-60,Male,28,6/3/2021
+155,Negeri Sembilan,Heart Diseases,19-30,Male,44,6/4/2021
+156,Sabah,COVID-19,0-18,Female,79,6/5/2021
+157,Penang,Dengue,0-18,Female,41,6/6/2021
+158,Sabah,COVID-19,61+,Male,63,6/7/2021
+159,Perlis,Heart Diseases,31-45,Female,23,6/8/2021
+160,Selangor,Heart Diseases,31-45,Female,75,6/9/2021
+161,Penang,Heart Diseases,19-30,Female,48,6/10/2021
+162,Perlis,COVID-19,46-60,Male,32,6/11/2021
+163,Perak,Dengue,31-45,Male,57,6/12/2021
+164,Selangor,Dengue,61+,Female,33,6/13/2021
+165,Kedah,COVID-19,19-30,Female,24,6/14/2021
+166,Johor,Dengue,19-30,Male,39,6/15/2021
+167,Putrajaya,COVID-19,61+,Male,34,6/16/2021
+168,Penang,Dengue,46-60,Female,56,6/17/2021
+169,Penang,Diabetes,61+,Female,28,6/18/2021
+170,Kuala Lumpur,Diabetes,46-60,Male,37,6/19/2021
+171,Perak,Heart Diseases,61+,Male,7,6/20/2021
+172,Negeri Sembilan,Diabetes,61+,Male,68,6/21/2021
+173,Kelantan,Diabetes,0-18,Female,37,6/22/2021
+174,Selangor,Diabetes,19-30,Male,56,6/23/2021
+175,Perak,COVID-19,61+,Female,65,6/24/2021
+176,Pahang,Diabetes,61+,Male,65,6/25/2021
+177,Sarawak,Diabetes,31-45,Male,47,6/26/2021
+178,Kelantan,Heart Diseases,19-30,Male,20,6/27/2021
+179,Johor,Diabetes,31-45,Male,19,6/28/2021
+180,Kelantan,Diabetes,19-30,Female,29,6/29/2021
+181,Negeri Sembilan,Dengue,31-45,Female,74,6/30/2021
+182,Labuan,Heart Diseases,61+,Male,60,7/1/2021
+183,Kuala Lumpur,Heart Diseases,61+,Female,18,7/2/2021
+184,Kelantan,Heart Diseases,0-18,Male,92,7/3/2021
+185,Johor,Heart Diseases,31-45,Male,35,7/4/2021
+186,Negeri Sembilan,Heart Diseases,46-60,Male,43,7/5/2021
+187,Sabah,Heart Diseases,0-18,Male,95,7/6/2021
+188,Penang,COVID-19,31-45,Female,91,7/7/2021
+189,Labuan,Diabetes,31-45,Male,11,7/8/2021
+190,Kuala Lumpur,Heart Diseases,0-18,Male,49,7/9/2021
+191,Penang,Diabetes,61+,Female,38,7/10/2021
+192,Sarawak,Diabetes,31-45,Male,64,7/11/2021
+193,Perlis,COVID-19,61+,Male,69,7/12/2021
+194,Labuan,Heart Diseases,0-18,Male,8,7/13/2021
+195,Labuan,Dengue,61+,Female,34,7/14/2021
+196,Sabah,COVID-19,19-30,Male,48,7/15/2021
+197,Sabah,Dengue,46-60,Female,56,7/16/2021
+198,Selangor,Diabetes,31-45,Male,76,7/17/2021
+199,Terengganu,Diabetes,46-60,Male,65,7/18/2021
+200,Kelantan,COVID-19,61+,Female,31,7/19/2021
+201,Labuan,COVID-19,31-45,Male,4,7/20/2021
+202,Putrajaya,Dengue,61+,Male,50,7/21/2021
+203,Penang,Heart Diseases,19-30,Female,69,7/22/2021
+204,Johor,Dengue,0-18,Female,30,7/23/2021
+205,Malacca,COVID-19,31-45,Female,88,7/24/2021
+206,Terengganu,Dengue,19-30,Female,59,7/25/2021
+207,Putrajaya,COVID-19,19-30,Female,67,7/26/2021
+208,Malacca,Dengue,31-45,Male,75,7/27/2021
+209,Kuala Lumpur,COVID-19,61+,Female,45,7/28/2021
+210,Negeri Sembilan,COVID-19,19-30,Male,4,7/29/2021
+211,Penang,COVID-19,46-60,Male,26,7/30/2021
+212,Penang,Heart Diseases,19-30,Male,27,7/31/2021
+213,Terengganu,Dengue,61+,Female,46,8/1/2021
+214,Labuan,Dengue,61+,Female,64,8/2/2021
+215,Sarawak,Dengue,46-60,Male,91,8/3/2021
+216,Terengganu,COVID-19,19-30,Female,51,8/4/2021
+217,Malacca,Dengue,61+,Female,50,8/5/2021
+218,Terengganu,Dengue,31-45,Female,6,8/6/2021
+219,Putrajaya,COVID-19,0-18,Female,59,8/7/2021
+220,Penang,Diabetes,0-18,Male,15,8/8/2021
+221,Sarawak,COVID-19,0-18,Male,30,8/9/2021
+222,Kelantan,Dengue,19-30,Female,42,8/10/2021
+223,Pahang,COVID-19,46-60,Male,37,8/11/2021
+224,Selangor,Diabetes,61+,Female,42,8/12/2021
+225,Kedah,COVID-19,31-45,Female,35,8/13/2021
+226,Sabah,Dengue,31-45,Male,87,8/14/2021
+227,Terengganu,Diabetes,19-30,Male,6,8/15/2021
+228,Kuala Lumpur,Heart Diseases,0-18,Male,68,8/16/2021
+229,Perlis,Dengue,19-30,Female,18,8/17/2021
+230,Negeri Sembilan,Diabetes,46-60,Male,73,8/18/2021
+231,Pahang,Diabetes,46-60,Female,29,8/19/2021
+232,Selangor,Heart Diseases,61+,Male,77,8/20/2021
+233,Selangor,COVID-19,61+,Male,59,8/21/2021
+234,Selangor,COVID-19,46-60,Female,47,8/22/2021
+235,Selangor,Dengue,46-60,Female,17,8/23/2021
+236,Malacca,Heart Diseases,46-60,Female,96,8/24/2021
+237,Kuala Lumpur,COVID-19,19-30,Female,22,8/25/2021
+238,Kuala Lumpur,Heart Diseases,46-60,Female,68,8/26/2021
+239,Sarawak,COVID-19,31-45,Female,69,8/27/2021
+240,Putrajaya,Diabetes,0-18,Female,37,8/28/2021
+241,Sabah,COVID-19,46-60,Female,49,8/29/2021
+242,Penang,Heart Diseases,0-18,Male,13,8/30/2021
+243,Selangor,Diabetes,19-30,Female,34,8/31/2021
+244,Perlis,Diabetes,0-18,Female,86,9/1/2021
+245,Penang,Diabetes,19-30,Male,53,9/2/2021
+246,Kuala Lumpur,Heart Diseases,31-45,Female,87,9/3/2021
+247,Johor,Dengue,19-30,Male,51,9/4/2021
+248,Johor,Dengue,19-30,Male,3,9/5/2021
+249,Perlis,Dengue,61+,Female,42,9/6/2021
+250,Sarawak,Heart Diseases,46-60,Male,98,9/7/2021
+251,Kuala Lumpur,Diabetes,46-60,Female,32,9/8/2021
+252,Perlis,Dengue,31-45,Male,51,9/9/2021
+253,Malacca,Heart Diseases,31-45,Male,85,9/10/2021
+254,Terengganu,Dengue,46-60,Male,46,9/11/2021
+255,Perlis,COVID-19,61+,Female,21,9/12/2021
+256,Kelantan,Dengue,46-60,Female,44,9/13/2021
+257,Penang,Dengue,61+,Male,11,9/14/2021
+258,Pahang,Diabetes,31-45,Male,68,9/15/2021
+259,Perak,Heart Diseases,0-18,Female,1,9/16/2021
+260,Sarawak,Diabetes,31-45,Female,92,9/17/2021
+261,Perlis,Diabetes,31-45,Male,63,9/18/2021
+262,Kuala Lumpur,Diabetes,19-30,Male,24,9/19/2021
+263,Negeri Sembilan,Diabetes,19-30,Female,99,9/20/2021
+264,Johor,Diabetes,19-30,Female,13,9/21/2021
+265,Kelantan,Dengue,19-30,Female,98,9/22/2021
+266,Sabah,Diabetes,61+,Female,11,9/23/2021
+267,Selangor,Diabetes,46-60,Female,51,9/24/2021
+268,Perak,Heart Diseases,0-18,Male,17,9/25/2021
+269,Labuan,COVID-19,31-45,Female,99,9/26/2021
+270,Sarawak,Dengue,61+,Male,82,9/27/2021
+271,Pahang,Dengue,0-18,Female,86,9/28/2021
+272,Putrajaya,Dengue,61+,Male,24,9/29/2021
+273,Putrajaya,Diabetes,61+,Female,19,9/30/2021
+274,Perak,Diabetes,31-45,Female,37,10/1/2021
+275,Perlis,Diabetes,46-60,Male,85,10/2/2021
+276,Malacca,Heart Diseases,19-30,Male,8,10/3/2021
+277,Johor,COVID-19,46-60,Female,28,10/4/2021
+278,Kuala Lumpur,Diabetes,31-45,Female,5,10/5/2021
+279,Johor,COVID-19,31-45,Female,17,10/6/2021
+280,Sabah,Heart Diseases,31-45,Female,36,10/7/2021
+281,Malacca,Dengue,0-18,Female,19,10/8/2021
+282,Selangor,Diabetes,46-60,Male,64,10/9/2021
+283,Kuala Lumpur,COVID-19,46-60,Male,91,10/10/2021
+284,Penang,COVID-19,61+,Female,98,10/11/2021
+285,Kedah,Diabetes,61+,Male,11,10/12/2021
+286,Kelantan,Dengue,61+,Male,54,10/13/2021
+287,Johor,Dengue,31-45,Male,45,10/14/2021
+288,Negeri Sembilan,Dengue,46-60,Female,47,10/15/2021
+289,Johor,Heart Diseases,31-45,Male,12,10/16/2021
+290,Perak,COVID-19,0-18,Female,21,10/17/2021
+291,Johor,COVID-19,61+,Male,11,10/18/2021
+292,Sarawak,COVID-19,31-45,Female,92,10/19/2021
+293,Johor,Heart Diseases,31-45,Male,5,10/20/2021
+294,Kedah,COVID-19,0-18,Female,81,10/21/2021
+295,Kedah,Heart Diseases,19-30,Female,56,10/22/2021
+296,Selangor,Dengue,46-60,Male,20,10/23/2021
+297,Pahang,Diabetes,19-30,Female,41,10/24/2021
+298,Penang,COVID-19,61+,Female,46,10/25/2021
+299,Negeri Sembilan,COVID-19,31-45,Female,12,10/26/2021
+300,Putrajaya,Dengue,0-18,Female,70,10/27/2021
+301,Johor,Diabetes,0-18,Female,17,10/28/2021
+302,Johor,Heart Diseases,46-60,Female,19,10/29/2021
+303,Kelantan,Diabetes,19-30,Female,26,10/30/2021
+304,Kuala Lumpur,Dengue,46-60,Female,48,10/31/2021
+305,Kedah,Dengue,31-45,Male,52,11/1/2021
+306,Negeri Sembilan,Diabetes,46-60,Male,96,11/2/2021
+307,Selangor,Heart Diseases,0-18,Female,70,11/3/2021
+308,Sabah,Heart Diseases,0-18,Female,55,11/4/2021
+309,Putrajaya,COVID-19,61+,Male,75,11/5/2021
+310,Pahang,Heart Diseases,61+,Male,33,11/6/2021
+311,Putrajaya,Diabetes,31-45,Male,62,11/7/2021
+312,Penang,Dengue,19-30,Female,88,11/8/2021
+313,Malacca,COVID-19,46-60,Male,23,11/9/2021
+314,Penang,COVID-19,31-45,Female,15,11/10/2021
+315,Sarawak,Dengue,61+,Female,27,11/11/2021
+316,Perak,Heart Diseases,46-60,Male,75,11/12/2021
+317,Sarawak,Dengue,61+,Female,64,11/13/2021
+318,Johor,Heart Diseases,46-60,Female,81,11/14/2021
+319,Labuan,Dengue,19-30,Female,51,11/15/2021
+320,Pahang,Diabetes,31-45,Female,53,11/16/2021
+321,Perak,Heart Diseases,46-60,Male,78,11/17/2021
+322,Negeri Sembilan,Diabetes,0-18,Male,91,11/18/2021
+323,Malacca,COVID-19,0-18,Female,82,11/19/2021
+324,Kedah,Dengue,46-60,Female,92,11/20/2021
+325,Pahang,COVID-19,46-60,Male,51,11/21/2021
+326,Pahang,COVID-19,46-60,Female,47,11/22/2021
+327,Sarawak,COVID-19,0-18,Male,4,11/23/2021
+328,Labuan,COVID-19,0-18,Female,7,11/24/2021
+329,Putrajaya,Dengue,46-60,Female,35,11/25/2021
+330,Putrajaya,COVID-19,61+,Male,48,11/26/2021
+331,Johor,Dengue,61+,Male,73,11/27/2021
+332,Perlis,Dengue,19-30,Male,72,11/28/2021
+333,Selangor,Diabetes,31-45,Male,45,11/29/2021
+334,Sarawak,Heart Diseases,61+,Female,81,11/30/2021
+335,Pahang,Heart Diseases,0-18,Male,81,12/1/2021
+336,Putrajaya,Dengue,61+,Female,97,12/2/2021
+337,Terengganu,Diabetes,19-30,Male,96,12/3/2021
+338,Kelantan,Dengue,19-30,Male,72,12/4/2021
+339,Malacca,Dengue,31-45,Female,19,12/5/2021
+340,Selangor,Dengue,61+,Male,63,12/6/2021
+341,Sarawak,Diabetes,0-18,Male,38,12/7/2021
+342,Malacca,Heart Diseases,0-18,Male,67,12/8/2021
+343,Kelantan,Diabetes,46-60,Male,59,12/9/2021
+344,Sabah,COVID-19,0-18,Female,69,12/10/2021
+345,Kelantan,Diabetes,31-45,Female,13,12/11/2021
+346,Labuan,Diabetes,31-45,Male,47,12/12/2021
+347,Kelantan,Diabetes,0-18,Male,61,12/13/2021
+348,Malacca,Diabetes,0-18,Male,31,12/14/2021
+349,Putrajaya,Heart Diseases,46-60,Female,80,12/15/2021
+350,Penang,COVID-19,0-18,Female,96,12/16/2021
+351,Malacca,Heart Diseases,46-60,Female,22,12/17/2021
+352,Perlis,Heart Diseases,46-60,Female,93,12/18/2021
+353,Johor,Diabetes,0-18,Male,86,12/19/2021
+354,Perak,Dengue,19-30,Male,43,12/20/2021
+355,Putrajaya,Dengue,19-30,Male,67,12/21/2021
+356,Penang,Heart Diseases,46-60,Female,54,12/22/2021
+357,Kedah,Heart Diseases,0-18,Male,10,12/23/2021
+358,Perak,Diabetes,19-30,Female,42,12/24/2021
+359,Johor,Heart Diseases,0-18,Female,64,12/25/2021
+360,Sarawak,Diabetes,0-18,Male,21,12/26/2021
+361,Selangor,Dengue,0-18,Male,80,12/27/2021
+362,Perlis,Dengue,61+,Male,76,12/28/2021
+363,Perlis,COVID-19,0-18,Female,66,12/29/2021
+364,Kedah,Dengue,61+,Female,41,12/30/2021
+365,Penang,Heart Diseases,46-60,Male,24,12/31/2021
+366,Labuan,Dengue,19-30,Male,35,1/1/2022
+367,Kuala Lumpur,Diabetes,19-30,Female,56,1/2/2022
+368,Sabah,Dengue,19-30,Male,30,1/3/2022
+369,Kelantan,COVID-19,19-30,Female,57,1/4/2022
+370,Penang,Dengue,19-30,Female,94,1/5/2022
+371,Selangor,Diabetes,19-30,Male,47,1/6/2022
+372,Putrajaya,Diabetes,19-30,Male,35,1/7/2022
+373,Sabah,Heart Diseases,46-60,Male,19,1/8/2022
+374,Putrajaya,Dengue,0-18,Male,8,1/9/2022
+375,Perlis,Diabetes,31-45,Female,26,1/10/2022
+376,Malacca,COVID-19,61+,Female,71,1/11/2022
+377,Selangor,Heart Diseases,31-45,Female,30,1/12/2022
+378,Johor,COVID-19,31-45,Male,7,1/13/2022
+379,Kedah,Dengue,0-18,Female,67,1/14/2022
+380,Johor,Dengue,0-18,Male,65,1/15/2022
+381,Putrajaya,Dengue,0-18,Male,36,1/16/2022
+382,Kuala Lumpur,Heart Diseases,19-30,Male,25,1/17/2022
+383,Selangor,Diabetes,46-60,Male,37,1/18/2022
+384,Negeri Sembilan,Heart Diseases,19-30,Male,1,1/19/2022
+385,Negeri Sembilan,COVID-19,46-60,Male,15,1/20/2022
+386,Putrajaya,Heart Diseases,46-60,Female,37,1/21/2022
+387,Sarawak,COVID-19,31-45,Male,13,1/22/2022
+388,Penang,Heart Diseases,31-45,Female,8,1/23/2022
+389,Perlis,Diabetes,46-60,Female,5,1/24/2022
+390,Perlis,COVID-19,46-60,Male,60,1/25/2022
+391,Kelantan,Dengue,19-30,Male,73,1/26/2022
+392,Kelantan,Dengue,19-30,Male,1,1/27/2022
+393,Putrajaya,Heart Diseases,31-45,Female,36,1/28/2022
+394,Putrajaya,Dengue,0-18,Male,35,1/29/2022
+395,Kelantan,COVID-19,46-60,Female,66,1/30/2022
+396,Malacca,Dengue,19-30,Male,63,1/31/2022
+397,Perak,Diabetes,31-45,Male,23,2/1/2022
+398,Pahang,Diabetes,19-30,Female,9,2/2/2022
+399,Perak,Heart Diseases,46-60,Female,34,2/3/2022
+400,Johor,COVID-19,46-60,Male,46,2/4/2022
+401,Perak,Diabetes,61+,Female,78,2/5/2022
+402,Malacca,Diabetes,0-18,Female,4,2/6/2022
+403,Sarawak,COVID-19,61+,Female,30,2/7/2022
+404,Johor,Dengue,31-45,Female,95,2/8/2022
+405,Perak,Dengue,19-30,Female,75,2/9/2022
+406,Malacca,Heart Diseases,31-45,Male,99,2/10/2022
+407,Pahang,Dengue,46-60,Male,72,2/11/2022
+408,Perak,COVID-19,61+,Female,3,2/12/2022
+409,Malacca,Diabetes,61+,Male,14,2/13/2022
+410,Kuala Lumpur,Dengue,61+,Male,60,2/14/2022
+411,Kelantan,Heart Diseases,31-45,Female,77,2/15/2022
+412,Putrajaya,Dengue,46-60,Male,45,2/16/2022
+413,Kuala Lumpur,COVID-19,19-30,Female,96,2/17/2022
+414,Perlis,Heart Diseases,19-30,Female,34,2/18/2022
+415,Kelantan,Dengue,31-45,Male,45,2/19/2022
+416,Perlis,Heart Diseases,61+,Female,61,2/20/2022
+417,Terengganu,COVID-19,0-18,Female,83,2/21/2022
+418,Kedah,Diabetes,31-45,Female,16,2/22/2022
+419,Putrajaya,COVID-19,31-45,Female,66,2/23/2022
+420,Kuala Lumpur,COVID-19,46-60,Female,40,2/24/2022
+421,Kedah,COVID-19,19-30,Male,17,2/25/2022
+422,Kedah,COVID-19,31-45,Male,34,2/26/2022
+423,Pahang,Diabetes,31-45,Female,16,2/27/2022
+424,Kelantan,Diabetes,61+,Female,60,2/28/2022
+425,Putrajaya,Heart Diseases,61+,Male,66,3/1/2022
+426,Terengganu,Dengue,0-18,Female,66,3/2/2022
+427,Perlis,Diabetes,46-60,Male,90,3/3/2022
+428,Malacca,Diabetes,0-18,Female,13,3/4/2022
+429,Johor,Dengue,61+,Female,56,3/5/2022
+430,Malacca,Diabetes,19-30,Female,31,3/6/2022
+431,Johor,COVID-19,61+,Female,34,3/7/2022
+432,Kuala Lumpur,COVID-19,46-60,Female,39,3/8/2022
+433,Negeri Sembilan,Dengue,61+,Female,67,3/9/2022
+434,Putrajaya,Heart Diseases,46-60,Female,8,3/10/2022
+435,Malacca,Heart Diseases,46-60,Male,87,3/11/2022
+436,Perak,Dengue,46-60,Male,78,3/12/2022
+437,Putrajaya,Dengue,46-60,Male,55,3/13/2022
+438,Perak,COVID-19,46-60,Female,27,3/14/2022
+439,Penang,Heart Diseases,19-30,Female,93,3/15/2022
+440,Kelantan,Diabetes,0-18,Female,53,3/16/2022
+441,Johor,COVID-19,31-45,Female,39,3/17/2022
+442,Putrajaya,Dengue,0-18,Female,65,3/18/2022
+443,Johor,Heart Diseases,46-60,Female,17,3/19/2022
+444,Putrajaya,Diabetes,19-30,Female,30,3/20/2022
+445,Selangor,Diabetes,61+,Male,53,3/21/2022
+446,Sarawak,COVID-19,19-30,Female,13,3/22/2022
+447,Kelantan,Heart Diseases,46-60,Male,21,3/23/2022
+448,Pahang,Heart Diseases,19-30,Male,19,3/24/2022
+449,Penang,Dengue,19-30,Female,53,3/25/2022
+450,Pahang,Heart Diseases,46-60,Female,19,3/26/2022
+451,Kuala Lumpur,Heart Diseases,19-30,Male,57,3/27/2022
+452,Kuala Lumpur,COVID-19,31-45,Male,25,3/28/2022
+453,Pahang,Heart Diseases,31-45,Female,86,3/29/2022
+454,Pahang,Diabetes,19-30,Female,31,3/30/2022
+455,Terengganu,COVID-19,61+,Male,81,3/31/2022
+456,Kelantan,COVID-19,46-60,Female,55,4/1/2022
+457,Pahang,Dengue,31-45,Female,23,4/2/2022
+458,Perak,Heart Diseases,61+,Female,32,4/3/2022
+459,Sarawak,Dengue,19-30,Male,62,4/4/2022
+460,Sarawak,Diabetes,61+,Male,74,4/5/2022
+461,Kedah,COVID-19,0-18,Male,10,4/6/2022
+462,Negeri Sembilan,COVID-19,31-45,Female,72,4/7/2022
+463,Kuala Lumpur,COVID-19,19-30,Female,54,4/8/2022
+464,Johor,Diabetes,46-60,Male,52,4/9/2022
+465,Selangor,Diabetes,19-30,Male,20,4/10/2022
+466,Labuan,Dengue,46-60,Male,32,4/11/2022
+467,Putrajaya,Dengue,19-30,Female,14,4/12/2022
+468,Johor,Dengue,61+,Male,50,4/13/2022
+469,Negeri Sembilan,Heart Diseases,61+,Male,28,4/14/2022
+470,Selangor,COVID-19,61+,Female,53,4/15/2022
+471,Terengganu,COVID-19,0-18,Female,24,4/16/2022
+472,Putrajaya,Dengue,46-60,Female,79,4/17/2022
+473,Kelantan,COVID-19,61+,Male,22,4/18/2022
+474,Malacca,Dengue,0-18,Female,30,4/19/2022
+475,Kelantan,Heart Diseases,46-60,Female,63,4/20/2022
+476,Putrajaya,Heart Diseases,19-30,Male,4,4/21/2022
+477,Johor,Diabetes,0-18,Female,77,4/22/2022
+478,Putrajaya,Heart Diseases,31-45,Male,59,4/23/2022
+479,Johor,Dengue,0-18,Male,87,4/24/2022
+480,Selangor,Heart Diseases,0-18,Female,8,4/25/2022
+481,Selangor,Diabetes,46-60,Female,82,4/26/2022
+482,Kuala Lumpur,COVID-19,19-30,Female,12,4/27/2022
+483,Terengganu,Dengue,31-45,Female,31,4/28/2022
+484,Kuala Lumpur,COVID-19,61+,Female,78,4/29/2022
+485,Negeri Sembilan,Diabetes,61+,Female,34,4/30/2022
+486,Pahang,Diabetes,0-18,Male,82,5/1/2022
+487,Kelantan,Diabetes,46-60,Male,98,5/2/2022
+488,Selangor,COVID-19,46-60,Female,75,5/3/2022
+489,Perlis,COVID-19,61+,Male,76,5/4/2022
+490,Negeri Sembilan,COVID-19,31-45,Female,49,5/5/2022
+491,Perak,COVID-19,19-30,Male,79,5/6/2022
+492,Terengganu,Diabetes,31-45,Male,57,5/7/2022
+493,Johor,Diabetes,19-30,Male,95,5/8/2022
+494,Kuala Lumpur,Dengue,61+,Female,93,5/9/2022
+495,Negeri Sembilan,Dengue,19-30,Male,26,5/10/2022
+496,Labuan,COVID-19,46-60,Female,18,5/11/2022
+497,Kelantan,Heart Diseases,0-18,Male,96,5/12/2022
+498,Selangor,Heart Diseases,0-18,Male,86,5/13/2022
+499,Johor,Diabetes,61+,Male,38,5/14/2022
+500,Malacca,Diabetes,46-60,Male,81,5/15/2022
+501,Labuan,Diabetes,31-45,Male,87,5/16/2022
+502,Terengganu,Dengue,46-60,Female,88,5/17/2022
+503,Negeri Sembilan,Dengue,0-18,Female,50,5/18/2022
+504,Putrajaya,Diabetes,0-18,Male,8,5/19/2022
+505,Penang,Diabetes,46-60,Male,41,5/20/2022
+506,Johor,Diabetes,46-60,Male,6,5/21/2022
+507,Putrajaya,Heart Diseases,0-18,Male,69,5/22/2022
+508,Kelantan,Dengue,31-45,Female,44,5/23/2022
+509,Putrajaya,Heart Diseases,61+,Male,64,5/24/2022
+510,Kedah,Heart Diseases,61+,Female,29,5/25/2022
+511,Perlis,Diabetes,46-60,Male,28,5/26/2022
+512,Sabah,Diabetes,61+,Female,11,5/27/2022
+513,Labuan,COVID-19,0-18,Male,65,5/28/2022
+514,Pahang,COVID-19,0-18,Male,19,5/29/2022
+515,Sabah,Heart Diseases,46-60,Female,9,5/30/2022
+516,Kelantan,Dengue,46-60,Male,27,5/31/2022
+517,Perak,Diabetes,46-60,Male,34,6/1/2022
+518,Kuala Lumpur,Diabetes,31-45,Male,44,6/2/2022
+519,Perak,Heart Diseases,61+,Female,68,6/3/2022
+520,Kedah,COVID-19,46-60,Male,82,6/4/2022
+521,Putrajaya,Dengue,19-30,Male,15,6/5/2022
+522,Labuan,COVID-19,19-30,Female,51,6/6/2022
+523,Pahang,COVID-19,0-18,Female,13,6/7/2022
+524,Penang,COVID-19,61+,Female,83,6/8/2022
+525,Kedah,COVID-19,46-60,Male,49,6/9/2022
+526,Labuan,Diabetes,19-30,Male,70,6/10/2022
+527,Sarawak,Diabetes,61+,Male,56,6/11/2022
+528,Sabah,COVID-19,0-18,Female,76,6/12/2022
+529,Kedah,Dengue,31-45,Male,51,6/13/2022
+530,Sabah,Heart Diseases,61+,Male,37,6/14/2022
+531,Johor,Dengue,61+,Female,17,6/15/2022
+532,Perak,Dengue,31-45,Female,58,6/16/2022
+533,Johor,Dengue,61+,Female,87,6/17/2022
+534,Perlis,COVID-19,0-18,Female,90,6/18/2022
+535,Sarawak,Diabetes,0-18,Female,29,6/19/2022
+536,Pahang,Dengue,31-45,Male,33,6/20/2022
+537,Putrajaya,COVID-19,46-60,Female,60,6/21/2022
+538,Penang,Dengue,19-30,Male,91,6/22/2022
+539,Terengganu,Dengue,46-60,Male,89,6/23/2022
+540,Sabah,COVID-19,61+,Female,55,6/24/2022
+541,Penang,Diabetes,19-30,Female,10,6/25/2022
+542,Sabah,Diabetes,31-45,Female,47,6/26/2022
+543,Kelantan,Heart Diseases,31-45,Male,23,6/27/2022
+544,Kedah,COVID-19,19-30,Female,85,6/28/2022
+545,Perlis,Heart Diseases,0-18,Female,21,6/29/2022
+546,Perak,Heart Diseases,19-30,Female,13,6/30/2022
+547,Terengganu,Heart Diseases,61+,Female,33,7/1/2022
+548,Selangor,Diabetes,0-18,Female,24,7/2/2022
+549,Sabah,COVID-19,31-45,Male,11,7/3/2022
+550,Penang,Heart Diseases,19-30,Male,17,7/4/2022
+551,Perlis,COVID-19,46-60,Male,68,7/5/2022
+552,Malacca,COVID-19,46-60,Female,47,7/6/2022
+553,Terengganu,Diabetes,61+,Female,25,7/7/2022
+554,Malacca,Heart Diseases,46-60,Female,94,7/8/2022
+555,Johor,Heart Diseases,19-30,Male,73,7/9/2022
+556,Perak,COVID-19,19-30,Female,21,7/10/2022
+557,Putrajaya,Dengue,46-60,Female,84,7/11/2022
+558,Kuala Lumpur,Diabetes,19-30,Female,83,7/12/2022
+559,Putrajaya,Diabetes,61+,Male,83,7/13/2022
+560,Kuala Lumpur,Diabetes,0-18,Female,12,7/14/2022
+561,Selangor,Diabetes,61+,Male,37,7/15/2022
+562,Kelantan,Heart Diseases,61+,Female,42,7/16/2022
+563,Penang,Heart Diseases,19-30,Male,17,7/17/2022
+564,Labuan,Dengue,0-18,Male,48,7/18/2022
+565,Selangor,Diabetes,19-30,Male,28,7/19/2022
+566,Kedah,Diabetes,31-45,Female,41,7/20/2022
+567,Kedah,COVID-19,19-30,Female,99,7/21/2022
+568,Putrajaya,Heart Diseases,19-30,Male,47,7/22/2022
+569,Penang,Diabetes,19-30,Male,18,7/23/2022
+570,Labuan,Dengue,0-18,Female,78,7/24/2022
+571,Pahang,Dengue,19-30,Female,99,7/25/2022
+572,Kelantan,Heart Diseases,0-18,Male,71,7/26/2022
+573,Perlis,Dengue,46-60,Female,13,7/27/2022
+574,Sabah,Dengue,31-45,Female,82,7/28/2022
+575,Labuan,Heart Diseases,0-18,Female,13,7/29/2022
+576,Kuala Lumpur,Diabetes,46-60,Female,31,7/30/2022
+577,Terengganu,Diabetes,0-18,Male,2,7/31/2022
+578,Pahang,Dengue,0-18,Female,16,8/1/2022
+579,Sabah,Dengue,31-45,Female,9,8/2/2022
+580,Sabah,Diabetes,61+,Male,73,8/3/2022
+581,Pahang,Heart Diseases,61+,Male,38,8/4/2022
+582,Johor,Dengue,0-18,Female,75,8/5/2022
+583,Malacca,COVID-19,19-30,Female,54,8/6/2022
+584,Sabah,Heart Diseases,46-60,Female,56,8/7/2022
+585,Pahang,Dengue,19-30,Female,86,8/8/2022
+586,Labuan,Dengue,19-30,Male,97,8/9/2022
+587,Pahang,COVID-19,0-18,Male,87,8/10/2022
+588,Sarawak,COVID-19,0-18,Male,45,8/11/2022
+589,Selangor,Diabetes,0-18,Female,34,8/12/2022
+590,Negeri Sembilan,Heart Diseases,0-18,Female,9,8/13/2022
+591,Johor,Heart Diseases,61+,Female,88,8/14/2022
+592,Perak,Diabetes,0-18,Female,8,8/15/2022
+593,Negeri Sembilan,Heart Diseases,61+,Male,7,8/16/2022
+594,Selangor,Heart Diseases,61+,Male,36,8/17/2022
+595,Selangor,Heart Diseases,0-18,Female,18,8/18/2022
+596,Selangor,Heart Diseases,31-45,Male,3,8/19/2022
+597,Negeri Sembilan,Heart Diseases,46-60,Female,28,8/20/2022
+598,Penang,COVID-19,19-30,Female,70,8/21/2022
+599,Malacca,Heart Diseases,61+,Male,44,8/22/2022
+600,Pahang,COVID-19,46-60,Female,21,8/23/2022
+601,Terengganu,Heart Diseases,31-45,Female,28,8/24/2022
+602,Putrajaya,Diabetes,19-30,Male,54,8/25/2022
+603,Malacca,Dengue,19-30,Female,54,8/26/2022
+604,Kuala Lumpur,COVID-19,61+,Female,65,8/27/2022
+605,Labuan,Heart Diseases,0-18,Male,21,8/28/2022
+606,Kelantan,Diabetes,31-45,Female,99,8/29/2022
+607,Penang,Dengue,61+,Male,13,8/30/2022
+608,Perak,COVID-19,31-45,Female,57,8/31/2022
+609,Malacca,Dengue,0-18,Male,49,9/1/2022
+610,Putrajaya,Diabetes,0-18,Male,54,9/2/2022
+611,Terengganu,COVID-19,61+,Male,10,9/3/2022
+612,Kedah,Dengue,0-18,Female,53,9/4/2022
+613,Selangor,Heart Diseases,46-60,Male,44,9/5/2022
+614,Sabah,COVID-19,19-30,Male,47,9/6/2022
+615,Kuala Lumpur,Dengue,61+,Male,53,9/7/2022
+616,Kelantan,Diabetes,31-45,Male,74,9/8/2022
+617,Johor,Diabetes,46-60,Male,46,9/9/2022
+618,Perak,COVID-19,61+,Female,13,9/10/2022
+619,Labuan,Dengue,0-18,Female,37,9/11/2022
+620,Kelantan,COVID-19,0-18,Female,24,9/12/2022
+621,Selangor,COVID-19,0-18,Female,2,9/13/2022
+622,Sabah,Dengue,0-18,Female,86,9/14/2022
+623,Penang,Dengue,31-45,Female,81,9/15/2022
+624,Sabah,Heart Diseases,46-60,Female,14,9/16/2022
+625,Negeri Sembilan,Dengue,19-30,Male,10,9/17/2022
+626,Sabah,Diabetes,31-45,Female,35,9/18/2022
+627,Negeri Sembilan,COVID-19,31-45,Male,25,9/19/2022
+628,Kuala Lumpur,COVID-19,19-30,Male,3,9/20/2022
+629,Penang,Diabetes,19-30,Female,17,9/21/2022
+630,Labuan,Dengue,0-18,Male,12,9/22/2022
+631,Perlis,Diabetes,31-45,Male,54,9/23/2022
+632,Selangor,Diabetes,61+,Male,24,9/24/2022
+633,Negeri Sembilan,Heart Diseases,19-30,Male,29,9/25/2022
+634,Johor,Diabetes,19-30,Female,43,9/26/2022
+635,Sabah,COVID-19,46-60,Female,25,9/27/2022
+636,Sabah,Diabetes,61+,Female,60,9/28/2022
+637,Johor,COVID-19,61+,Female,90,9/29/2022
+638,Labuan,COVID-19,19-30,Female,65,9/30/2022
+639,Kedah,COVID-19,0-18,Female,84,10/1/2022
+640,Putrajaya,Dengue,46-60,Female,28,10/2/2022
+641,Kuala Lumpur,Heart Diseases,61+,Female,16,10/3/2022
+642,Pahang,COVID-19,19-30,Female,47,10/4/2022
+643,Putrajaya,COVID-19,61+,Female,81,10/5/2022
+644,Perlis,Dengue,46-60,Male,92,10/6/2022
+645,Perak,COVID-19,46-60,Female,58,10/7/2022
+646,Terengganu,Diabetes,31-45,Male,76,10/8/2022
+647,Negeri Sembilan,Diabetes,19-30,Male,27,10/9/2022
+648,Johor,Heart Diseases,46-60,Male,53,10/10/2022
+649,Putrajaya,COVID-19,31-45,Male,42,10/11/2022
+650,Terengganu,Dengue,31-45,Female,59,10/12/2022
+651,Penang,Diabetes,61+,Male,47,10/13/2022
+652,Putrajaya,Dengue,61+,Female,94,10/14/2022
+653,Labuan,Dengue,31-45,Female,34,10/15/2022
+654,Negeri Sembilan,Diabetes,61+,Male,37,10/16/2022
+655,Pahang,Dengue,46-60,Female,6,10/17/2022
+656,Terengganu,Diabetes,0-18,Male,7,10/18/2022
+657,Penang,Dengue,46-60,Male,96,10/19/2022
+658,Kelantan,Diabetes,31-45,Female,96,10/20/2022
+659,Selangor,COVID-19,31-45,Female,25,10/21/2022
+660,Sabah,Heart Diseases,46-60,Male,33,10/22/2022
+661,Putrajaya,Diabetes,61+,Female,55,10/23/2022
+662,Kelantan,Diabetes,61+,Female,58,10/24/2022
+663,Negeri Sembilan,Heart Diseases,31-45,Female,7,10/25/2022
+664,Pahang,Diabetes,19-30,Male,57,10/26/2022
+665,Perlis,Diabetes,61+,Male,12,10/27/2022
+666,Terengganu,Dengue,46-60,Female,16,10/28/2022
+667,Kuala Lumpur,Heart Diseases,61+,Female,80,10/29/2022
+668,Selangor,COVID-19,46-60,Female,43,10/30/2022
+669,Negeri Sembilan,Diabetes,31-45,Female,77,10/31/2022
+670,Labuan,Heart Diseases,61+,Female,7,11/1/2022
+671,Johor,Dengue,46-60,Male,51,11/2/2022
+672,Kuala Lumpur,COVID-19,31-45,Female,73,11/3/2022
+673,Kuala Lumpur,Heart Diseases,19-30,Male,32,11/4/2022
+674,Kuala Lumpur,COVID-19,46-60,Female,75,11/5/2022
+675,Malacca,COVID-19,19-30,Male,8,11/6/2022
+676,Negeri Sembilan,COVID-19,19-30,Female,97,11/7/2022
+677,Selangor,Diabetes,0-18,Male,87,11/8/2022
+678,Putrajaya,Diabetes,61+,Female,89,11/9/2022
+679,Sabah,Dengue,46-60,Male,72,11/10/2022
+680,Sabah,Dengue,19-30,Male,45,11/11/2022
+681,Putrajaya,Heart Diseases,0-18,Male,86,11/12/2022
+682,Negeri Sembilan,Dengue,31-45,Male,59,11/13/2022
+683,Penang,COVID-19,46-60,Male,4,11/14/2022
+684,Malacca,COVID-19,19-30,Male,67,11/15/2022
+685,Johor,Diabetes,61+,Female,29,11/16/2022
+686,Kuala Lumpur,COVID-19,0-18,Male,29,11/17/2022
+687,Kuala Lumpur,Heart Diseases,19-30,Female,98,11/18/2022
+688,Negeri Sembilan,COVID-19,61+,Female,98,11/19/2022
+689,Penang,COVID-19,19-30,Female,28,11/20/2022
+690,Sabah,Heart Diseases,46-60,Female,77,11/21/2022
+691,Sabah,Dengue,46-60,Female,79,11/22/2022
+692,Pahang,Dengue,46-60,Male,87,11/23/2022
+693,Negeri Sembilan,Heart Diseases,0-18,Male,44,11/24/2022
+694,Malacca,Diabetes,46-60,Male,90,11/25/2022
+695,Kedah,COVID-19,61+,Female,4,11/26/2022
+696,Malacca,Heart Diseases,19-30,Male,90,11/27/2022
+697,Labuan,COVID-19,31-45,Male,9,11/28/2022
+698,Sabah,Diabetes,61+,Male,5,11/29/2022
+699,Sabah,COVID-19,61+,Male,56,11/30/2022
+700,Kelantan,Heart Diseases,46-60,Male,96,12/1/2022
+701,Sabah,COVID-19,0-18,Female,84,12/2/2022
+702,Putrajaya,Dengue,19-30,Male,50,12/3/2022
+703,Johor,Diabetes,0-18,Female,75,12/4/2022
+704,Perak,Diabetes,19-30,Female,15,12/5/2022
+705,Negeri Sembilan,Diabetes,19-30,Female,32,12/6/2022
+706,Terengganu,Heart Diseases,0-18,Female,28,12/7/2022
+707,Malacca,Diabetes,61+,Female,22,12/8/2022
+708,Putrajaya,Dengue,19-30,Male,17,12/9/2022
+709,Perak,Heart Diseases,0-18,Male,59,12/10/2022
+710,Putrajaya,Dengue,19-30,Male,90,12/11/2022
+711,Penang,COVID-19,31-45,Female,71,12/12/2022
+712,Kedah,COVID-19,61+,Male,57,12/13/2022
+713,Johor,COVID-19,46-60,Male,26,12/14/2022
+714,Selangor,COVID-19,19-30,Female,25,12/15/2022
+715,Putrajaya,Dengue,31-45,Female,10,12/16/2022
+716,Putrajaya,Heart Diseases,46-60,Female,45,12/17/2022
+717,Sarawak,Heart Diseases,46-60,Female,83,12/18/2022
+718,Malacca,Diabetes,19-30,Male,11,12/19/2022
+719,Perak,Dengue,0-18,Female,77,12/20/2022
+720,Selangor,COVID-19,19-30,Female,53,12/21/2022
+721,Kedah,Dengue,31-45,Male,72,12/22/2022
+722,Kelantan,Diabetes,46-60,Male,68,12/23/2022
+723,Selangor,Diabetes,19-30,Female,95,12/24/2022
+724,Johor,Dengue,0-18,Male,28,12/25/2022
+725,Johor,Dengue,19-30,Female,75,12/26/2022
+726,Terengganu,Dengue,61+,Female,65,12/27/2022
+727,Kelantan,Heart Diseases,0-18,Male,49,12/28/2022
+728,Sarawak,COVID-19,31-45,Male,47,12/29/2022
+729,Negeri Sembilan,Dengue,46-60,Female,52,12/30/2022
+730,Selangor,Dengue,19-30,Female,88,12/31/2022
+731,Kelantan,Dengue,0-18,Female,54,1/1/2023
+732,Johor,Diabetes,61+,Male,60,1/2/2023
+733,Johor,Diabetes,0-18,Female,57,1/3/2023
+734,Perak,Heart Diseases,61+,Female,47,1/4/2023
+735,Sabah,COVID-19,31-45,Female,31,1/5/2023
+736,Sarawak,Heart Diseases,46-60,Female,46,1/6/2023
+737,Selangor,COVID-19,31-45,Female,26,1/7/2023
+738,Terengganu,Diabetes,19-30,Male,5,1/8/2023
+739,Terengganu,Diabetes,0-18,Female,84,1/9/2023
+740,Selangor,Diabetes,61+,Female,52,1/10/2023
+741,Labuan,Heart Diseases,61+,Female,75,1/11/2023
+742,Kuala Lumpur,Dengue,0-18,Female,54,1/12/2023
+743,Kedah,Dengue,0-18,Male,33,1/13/2023
+744,Terengganu,Diabetes,19-30,Male,50,1/14/2023
+745,Kelantan,Dengue,31-45,Male,38,1/15/2023
+746,Kedah,Dengue,61+,Female,27,1/16/2023
+747,Kelantan,Heart Diseases,19-30,Female,98,1/17/2023
+748,Penang,COVID-19,31-45,Male,15,1/18/2023
+749,Johor,Diabetes,19-30,Male,96,1/19/2023
+750,Sabah,Diabetes,61+,Male,61,1/20/2023
+751,Perak,Heart Diseases,0-18,Female,21,1/21/2023
+752,Terengganu,Heart Diseases,0-18,Female,46,1/22/2023
+753,Sabah,Dengue,31-45,Male,69,1/23/2023
+754,Sabah,Diabetes,46-60,Male,6,1/24/2023
+755,Sabah,COVID-19,31-45,Male,38,1/25/2023
+756,Kuala Lumpur,Heart Diseases,46-60,Female,62,1/26/2023
+757,Kedah,COVID-19,19-30,Female,86,1/27/2023
+758,Kelantan,COVID-19,19-30,Female,62,1/28/2023
+759,Perlis,Diabetes,61+,Male,82,1/29/2023
+760,Penang,Diabetes,46-60,Male,78,1/30/2023
+761,Malacca,Heart Diseases,61+,Female,74,1/31/2023
+762,Sabah,Diabetes,0-18,Male,46,2/1/2023
+763,Negeri Sembilan,Diabetes,46-60,Female,13,2/2/2023
+764,Kedah,Diabetes,31-45,Male,95,2/3/2023
+765,Terengganu,COVID-19,0-18,Male,94,2/4/2023
+766,Sarawak,Heart Diseases,0-18,Male,3,2/5/2023
+767,Terengganu,Dengue,31-45,Male,94,2/6/2023
+768,Perak,COVID-19,0-18,Female,6,2/7/2023
+769,Malacca,Diabetes,46-60,Male,93,2/8/2023
+770,Perlis,COVID-19,61+,Female,8,2/9/2023
+771,Negeri Sembilan,Diabetes,0-18,Female,44,2/10/2023
+772,Terengganu,Diabetes,46-60,Female,33,2/11/2023
+773,Perlis,COVID-19,19-30,Male,81,2/12/2023
+774,Malacca,Heart Diseases,46-60,Female,75,2/13/2023
+775,Sabah,Diabetes,61+,Female,77,2/14/2023
+776,Negeri Sembilan,Heart Diseases,46-60,Female,50,2/15/2023
+777,Perlis,Dengue,31-45,Male,11,2/16/2023
+778,Perak,Diabetes,61+,Male,95,2/17/2023
+779,Putrajaya,Heart Diseases,19-30,Female,28,2/18/2023
+780,Kelantan,Heart Diseases,31-45,Male,70,2/19/2023
+781,Johor,Dengue,46-60,Female,41,2/20/2023
+782,Kelantan,Heart Diseases,61+,Female,16,2/21/2023
+783,Putrajaya,Heart Diseases,19-30,Male,68,2/22/2023
+784,Malacca,Dengue,31-45,Female,99,2/23/2023
+785,Kedah,Diabetes,19-30,Male,48,2/24/2023
+786,Johor,Heart Diseases,46-60,Male,56,2/25/2023
+787,Penang,Heart Diseases,19-30,Female,64,2/26/2023
+788,Putrajaya,Heart Diseases,0-18,Male,59,2/27/2023
+789,Perak,COVID-19,31-45,Male,90,2/28/2023
+790,Penang,Dengue,19-30,Female,62,3/1/2023
+791,Kuala Lumpur,COVID-19,46-60,Female,76,3/2/2023
+792,Putrajaya,Dengue,46-60,Male,11,3/3/2023
+793,Negeri Sembilan,Diabetes,19-30,Male,89,3/4/2023
+794,Selangor,Diabetes,46-60,Female,18,3/5/2023
+795,Johor,Heart Diseases,61+,Male,19,3/6/2023
+796,Penang,Dengue,61+,Male,87,3/7/2023
+797,Terengganu,Diabetes,61+,Male,55,3/8/2023
+798,Penang,Dengue,0-18,Male,82,3/9/2023
+799,Perlis,Diabetes,19-30,Male,26,3/10/2023
+800,Kelantan,COVID-19,0-18,Male,6,3/11/2023
+801,Perlis,Diabetes,46-60,Male,4,3/12/2023
+802,Kuala Lumpur,COVID-19,0-18,Female,29,3/13/2023
+803,Johor,Diabetes,46-60,Female,59,3/14/2023
+804,Johor,Heart Diseases,46-60,Female,98,3/15/2023
+805,Kuala Lumpur,COVID-19,31-45,Female,17,3/16/2023
+806,Malacca,Diabetes,61+,Female,43,3/17/2023
+807,Putrajaya,Heart Diseases,46-60,Male,80,3/18/2023
+808,Perlis,COVID-19,31-45,Male,66,3/19/2023
+809,Pahang,Heart Diseases,61+,Male,34,3/20/2023
+810,Terengganu,Dengue,46-60,Male,8,3/21/2023
+811,Sarawak,Dengue,46-60,Female,13,3/22/2023
+812,Kelantan,COVID-19,0-18,Male,8,3/23/2023
+813,Johor,Diabetes,0-18,Male,94,3/24/2023
+814,Malacca,COVID-19,61+,Female,96,3/25/2023
+815,Selangor,Heart Diseases,46-60,Male,94,3/26/2023
+816,Terengganu,Diabetes,19-30,Male,65,3/27/2023
+817,Perlis,Dengue,0-18,Female,43,3/28/2023
+818,Kelantan,Diabetes,61+,Male,39,3/29/2023
+819,Selangor,Dengue,46-60,Male,81,3/30/2023
+820,Perlis,Diabetes,46-60,Male,59,3/31/2023
+821,Penang,Diabetes,19-30,Male,84,4/1/2023
+822,Selangor,Diabetes,61+,Male,88,4/2/2023
+823,Kuala Lumpur,Heart Diseases,46-60,Female,86,4/3/2023
+824,Labuan,Heart Diseases,0-18,Female,93,4/4/2023
+825,Putrajaya,COVID-19,19-30,Female,86,4/5/2023
+826,Malacca,COVID-19,61+,Female,44,4/6/2023
+827,Kelantan,Dengue,19-30,Female,9,4/7/2023
+828,Sabah,Heart Diseases,0-18,Female,37,4/8/2023
+829,Labuan,Dengue,61+,Male,74,4/9/2023
+830,Putrajaya,COVID-19,19-30,Female,36,4/10/2023
+831,Negeri Sembilan,Dengue,31-45,Female,92,4/11/2023
+832,Negeri Sembilan,COVID-19,0-18,Male,28,4/12/2023
+833,Kelantan,Heart Diseases,0-18,Male,42,4/13/2023
+834,Selangor,Diabetes,0-18,Female,43,4/14/2023
+835,Perlis,Heart Diseases,31-45,Male,85,4/15/2023
+836,Malacca,Dengue,31-45,Female,88,4/16/2023
+837,Sarawak,Dengue,46-60,Male,42,4/17/2023
+838,Negeri Sembilan,Heart Diseases,19-30,Female,66,4/18/2023
+839,Malacca,Heart Diseases,46-60,Male,55,4/19/2023
+840,Negeri Sembilan,COVID-19,19-30,Male,72,4/20/2023
+841,Penang,Dengue,31-45,Female,48,4/21/2023
+842,Putrajaya,Dengue,31-45,Female,91,4/22/2023
+843,Perlis,Heart Diseases,46-60,Female,22,4/23/2023
+844,Penang,Diabetes,61+,Female,27,4/24/2023
+845,Terengganu,Dengue,46-60,Female,93,4/25/2023
+846,Negeri Sembilan,Diabetes,19-30,Male,67,4/26/2023
+847,Sabah,Heart Diseases,46-60,Female,13,4/27/2023
+848,Sabah,Heart Diseases,0-18,Female,45,4/28/2023
+849,Penang,COVID-19,19-30,Male,10,4/29/2023
+850,Kuala Lumpur,Dengue,19-30,Male,9,4/30/2023
+851,Labuan,Diabetes,61+,Female,54,5/1/2023
+852,Sabah,COVID-19,31-45,Male,27,5/2/2023
+853,Negeri Sembilan,Dengue,19-30,Male,34,5/3/2023
+854,Kelantan,COVID-19,31-45,Female,1,5/4/2023
+855,Penang,Heart Diseases,46-60,Male,32,5/5/2023
+856,Terengganu,Dengue,0-18,Male,89,5/6/2023
+857,Sarawak,COVID-19,61+,Female,93,5/7/2023
+858,Sarawak,COVID-19,31-45,Female,71,5/8/2023
+859,Kedah,Diabetes,19-30,Male,67,5/9/2023
+860,Labuan,COVID-19,31-45,Male,84,5/10/2023
+861,Selangor,Dengue,19-30,Female,20,5/11/2023
+862,Perlis,Dengue,31-45,Male,94,5/12/2023
+863,Sabah,Diabetes,19-30,Male,35,5/13/2023
+864,Sabah,Dengue,46-60,Male,99,5/14/2023
+865,Selangor,Heart Diseases,19-30,Female,91,5/15/2023
+866,Johor,Dengue,19-30,Male,90,5/16/2023
+867,Terengganu,Dengue,0-18,Male,78,5/17/2023
+868,Pahang,COVID-19,19-30,Female,17,5/18/2023
+869,Penang,COVID-19,0-18,Male,18,5/19/2023
+870,Kuala Lumpur,Dengue,61+,Male,45,5/20/2023
+871,Terengganu,Diabetes,0-18,Female,93,5/21/2023
+872,Perak,COVID-19,46-60,Female,84,5/22/2023
+873,Sabah,Diabetes,0-18,Female,53,5/23/2023
+874,Perlis,Dengue,61+,Female,91,5/24/2023
+875,Kedah,Dengue,46-60,Male,82,5/25/2023
+876,Sarawak,Heart Diseases,31-45,Male,68,5/26/2023
+877,Sabah,COVID-19,31-45,Female,65,5/27/2023
+878,Kedah,Dengue,0-18,Female,1,5/28/2023
+879,Negeri Sembilan,Heart Diseases,0-18,Male,58,5/29/2023
+880,Terengganu,COVID-19,61+,Female,26,5/30/2023
+881,Negeri Sembilan,Dengue,61+,Male,20,5/31/2023
+882,Pahang,Dengue,19-30,Female,87,6/1/2023
+883,Kelantan,COVID-19,61+,Male,10,6/2/2023
+884,Perak,COVID-19,19-30,Female,59,6/3/2023
+885,Putrajaya,COVID-19,46-60,Female,75,6/4/2023
+886,Terengganu,Dengue,0-18,Male,41,6/5/2023
+887,Johor,Dengue,46-60,Female,5,6/6/2023
+888,Pahang,Heart Diseases,61+,Male,65,6/7/2023
+889,Malacca,Diabetes,46-60,Male,17,6/8/2023
+890,Johor,COVID-19,46-60,Male,22,6/9/2023
+891,Labuan,Dengue,46-60,Male,98,6/10/2023
+892,Penang,Dengue,61+,Male,41,6/11/2023
+893,Perlis,COVID-19,46-60,Female,93,6/12/2023
+894,Terengganu,Diabetes,19-30,Female,68,6/13/2023
+895,Malacca,COVID-19,61+,Male,69,6/14/2023
+896,Malacca,Diabetes,46-60,Female,11,6/15/2023
+897,Pahang,Dengue,61+,Male,56,6/16/2023
+898,Selangor,Diabetes,31-45,Female,51,6/17/2023
+899,Labuan,Heart Diseases,19-30,Female,21,6/18/2023
+900,Kelantan,Dengue,46-60,Female,99,6/19/2023
+901,Terengganu,Heart Diseases,31-45,Female,76,6/20/2023
+902,Selangor,COVID-19,31-45,Male,26,6/21/2023
+903,Pahang,COVID-19,61+,Male,19,6/22/2023
+904,Penang,COVID-19,31-45,Female,60,6/23/2023
+905,Sarawak,Diabetes,19-30,Female,71,6/24/2023
+906,Sabah,Dengue,19-30,Male,47,6/25/2023
+907,Sabah,COVID-19,0-18,Female,71,6/26/2023
+908,Kelantan,COVID-19,19-30,Male,26,6/27/2023
+909,Penang,Dengue,31-45,Male,40,6/28/2023
+910,Kuala Lumpur,COVID-19,19-30,Male,5,6/29/2023
+911,Kelantan,Heart Diseases,61+,Female,21,6/30/2023
+912,Terengganu,Dengue,0-18,Male,78,7/1/2023
+913,Terengganu,Dengue,31-45,Female,4,7/2/2023
+914,Kedah,Dengue,0-18,Male,23,7/3/2023
+915,Selangor,Heart Diseases,31-45,Female,84,7/4/2023
+916,Kuala Lumpur,Dengue,61+,Female,15,7/5/2023
+917,Sabah,Heart Diseases,0-18,Female,93,7/6/2023
+918,Malacca,Dengue,46-60,Male,8,7/7/2023
+919,Selangor,Diabetes,31-45,Male,41,7/8/2023
+920,Perak,COVID-19,46-60,Female,19,7/9/2023
+921,Terengganu,Diabetes,0-18,Female,46,7/10/2023
+922,Labuan,COVID-19,46-60,Female,28,7/11/2023
+923,Perlis,Heart Diseases,46-60,Male,91,7/12/2023
+924,Penang,Diabetes,0-18,Male,68,7/13/2023
+925,Johor,Dengue,61+,Male,15,7/14/2023
+926,Kelantan,COVID-19,46-60,Male,99,7/15/2023
+927,Terengganu,COVID-19,46-60,Female,37,7/16/2023
+928,Selangor,Diabetes,61+,Female,1,7/17/2023
+929,Kuala Lumpur,Heart Diseases,46-60,Male,67,7/18/2023
+930,Perlis,Diabetes,46-60,Male,24,7/19/2023
+931,Labuan,Heart Diseases,46-60,Female,27,7/20/2023
+932,Selangor,Heart Diseases,19-30,Male,40,7/21/2023
+933,Johor,COVID-19,61+,Male,63,7/22/2023
+934,Perlis,Diabetes,46-60,Male,61,7/23/2023
+935,Perak,Diabetes,61+,Male,36,7/24/2023
+936,Johor,Heart Diseases,31-45,Male,98,7/25/2023
+937,Pahang,Diabetes,31-45,Male,93,7/26/2023
+938,Negeri Sembilan,Dengue,46-60,Female,24,7/27/2023
+939,Pahang,Dengue,61+,Male,24,7/28/2023
+940,Sabah,Diabetes,61+,Male,4,7/29/2023
+941,Selangor,Diabetes,61+,Female,67,7/30/2023
+942,Terengganu,Heart Diseases,19-30,Female,34,7/31/2023
+943,Putrajaya,Dengue,31-45,Female,57,8/1/2023
+944,Terengganu,Dengue,61+,Male,49,8/2/2023
+945,Terengganu,COVID-19,61+,Female,87,8/3/2023
+946,Labuan,Heart Diseases,19-30,Male,53,8/4/2023
+947,Negeri Sembilan,COVID-19,19-30,Male,23,8/5/2023
+948,Putrajaya,Dengue,61+,Male,69,8/6/2023
+949,Pahang,Heart Diseases,0-18,Female,95,8/7/2023
+950,Negeri Sembilan,Diabetes,61+,Female,53,8/8/2023
+951,Sarawak,Heart Diseases,61+,Female,62,8/9/2023
+952,Selangor,Diabetes,19-30,Female,41,8/10/2023
+953,Negeri Sembilan,Diabetes,19-30,Female,57,8/11/2023
+954,Malacca,Heart Diseases,61+,Male,60,8/12/2023
+955,Kelantan,Diabetes,61+,Male,54,8/13/2023
+956,Kelantan,COVID-19,61+,Male,70,8/14/2023
+957,Malacca,Dengue,19-30,Male,57,8/15/2023
+958,Perlis,Diabetes,61+,Female,10,8/16/2023
+959,Kedah,COVID-19,61+,Female,40,8/17/2023
+960,Labuan,Diabetes,46-60,Male,7,8/18/2023
+961,Perlis,Dengue,0-18,Female,38,8/19/2023
+962,Johor,COVID-19,31-45,Female,85,8/20/2023
+963,Kuala Lumpur,Dengue,0-18,Male,61,8/21/2023
+964,Labuan,Dengue,46-60,Male,84,8/22/2023
+965,Labuan,COVID-19,31-45,Female,3,8/23/2023
+966,Johor,COVID-19,61+,Female,51,8/24/2023
+967,Negeri Sembilan,COVID-19,46-60,Male,86,8/25/2023
+968,Pahang,Heart Diseases,61+,Male,47,8/26/2023
+969,Pahang,COVID-19,19-30,Male,68,8/27/2023
+970,Kelantan,COVID-19,46-60,Female,92,8/28/2023
+971,Putrajaya,COVID-19,19-30,Male,76,8/29/2023
+972,Penang,COVID-19,46-60,Male,38,8/30/2023
+973,Perlis,Diabetes,46-60,Female,36,8/31/2023
+974,Sarawak,Heart Diseases,19-30,Female,41,9/1/2023
+975,Selangor,Dengue,31-45,Female,69,9/2/2023
+976,Sabah,COVID-19,0-18,Female,13,9/3/2023
+977,Putrajaya,Diabetes,61+,Female,87,9/4/2023
+978,Putrajaya,Diabetes,46-60,Male,58,9/5/2023
+979,Perak,Diabetes,61+,Male,50,9/6/2023
+980,Pahang,Dengue,19-30,Female,30,9/7/2023
+981,Selangor,COVID-19,61+,Female,62,9/8/2023
+982,Perak,Heart Diseases,19-30,Female,25,9/9/2023
+983,Selangor,Heart Diseases,61+,Female,27,9/10/2023
+984,Negeri Sembilan,Diabetes,0-18,Female,51,9/11/2023
+985,Perak,Dengue,0-18,Male,78,9/12/2023
+986,Sabah,Dengue,0-18,Male,57,9/13/2023
+987,Selangor,Dengue,0-18,Male,47,9/14/2023
+988,Malacca,Heart Diseases,0-18,Male,39,9/15/2023
+989,Sabah,Diabetes,0-18,Female,16,9/16/2023
+990,Perak,COVID-19,19-30,Male,22,9/17/2023
+991,Sabah,Heart Diseases,46-60,Female,85,9/18/2023
+992,Selangor,Diabetes,61+,Female,54,9/19/2023
+993,Kedah,Diabetes,0-18,Female,21,9/20/2023
+994,Selangor,COVID-19,19-30,Male,72,9/21/2023
+995,Selangor,COVID-19,19-30,Female,16,9/22/2023
+996,Negeri Sembilan,COVID-19,19-30,Male,59,9/23/2023
+997,Perlis,Dengue,46-60,Male,31,9/24/2023
+998,Malacca,COVID-19,61+,Female,42,9/25/2023
+999,Putrajaya,Diabetes,46-60,Female,74,9/26/2023
+1000,Sarawak,COVID-19,31-45,Female,32,9/27/2023
