@@ -4,6 +4,8 @@ library(ggplot2)
 library(dplyr)
 library(shinythemes)
 library(plotly)
+library(shinyWidgets)
+library(shinyjs)
 
 healthcare_data <- read.csv("dummy_healthcare_data_malaysia.csv")
 
@@ -20,10 +22,15 @@ ui <- dashboardPage(
     )
   ),
   dashboardBody(
+    useShinyjs(),
     tabItems(
       tabItem(tabName = "dashboard",
               fluidRow(
-                box(plotlyOutput("trendPlot"), status = "primary", solidHeader = TRUE)
+                valueBoxOutput("totalCases"),
+                valueBoxOutput("averageCases")
+              ),
+              fluidRow(
+                box(plotlyOutput("trendPlot"), status = "primary", solidHeader = TRUE, width = 12)
               )),
       tabItem(tabName = "trends",
               h2("Trends Analysis")
@@ -34,7 +41,6 @@ ui <- dashboardPage(
 )
 
 server <- function(input, output) {
-  # Filter data based on selections
   filteredData <- reactive({
     data <- healthcare_data
     if(input$state != "All") {
@@ -48,6 +54,27 @@ server <- function(input, output) {
     }
     data <- data %>% filter(DateReported >= input$dateRange[1], DateReported <= input$dateRange[2])
     return(data)
+  })
+  
+  # Generate key metrics
+  output$totalCases <- renderValueBox({
+    data <- filteredData()
+    valueBox(
+      formatC(sum(data$CasesReported), format = "d", big.mark = ","),
+      "Total Cases",
+      icon = icon("hospital-o"),
+      color = "red"
+    )
+  })
+  
+  output$averageCases <- renderValueBox({
+    data <- filteredData()
+    valueBox(
+      round(mean(data$CasesReported), 2),
+      "Average Cases per Report",
+      icon = icon("medkit"),
+      color = "blue"
+    )
   })
   
   # Generate trend plot with plotly for interactive zoom and pan
