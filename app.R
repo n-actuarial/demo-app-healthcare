@@ -6,18 +6,27 @@ library(shinythemes)
 library(plotly)
 library(shinyWidgets)
 library(shinyjs)
+library(DT)
 
+# Define a function to fetch and process data from GitHub
+fetch_healthcare_data <- function() {
+  url <- "https://raw.githubusercontent.com/elvingggg/demo-app-healthcare/main/dummy_healthcare_data_malaysia.csv"
+  data <- read.csv(url, stringsAsFactors = FALSE)
+  data$DateReported <- as.Date(data$DateReported, format="%m/%d/%Y") # Ensure the date format is correct
+  return(data)
+}
+
+# UI definition
 ui <- dashboardPage(
   dashboardHeader(title = "Malaysia Healthcare Analytics"),
   dashboardSidebar(
     sidebarMenu(
       menuItem("Dashboard", tabName = "dashboard", icon = icon("dashboard")),
-      fileInput("fileUpload", "Choose CSV File", accept = ".csv"),
       uiOutput("stateInput"),
       uiOutput("conditionInput"),
       uiOutput("ageGroupInput"),
-      uiOutput("startDateInput"),  # Updated UI output for start date
-      uiOutput("endDateInput")     # Updated UI output for end date
+      uiOutput("startDateInput"),
+      uiOutput("endDateInput")
     )
   ),
   dashboardBody(
@@ -30,6 +39,9 @@ ui <- dashboardPage(
               ),
               fluidRow(
                 box(plotlyOutput("trendPlot"), status = "primary", solidHeader = TRUE, width = 12)
+              ),
+              fluidRow(
+                box(DT::dataTableOutput("data_table"), status = "primary", solidHeader = TRUE, width = 12) # Add data table display
               )
       )
     ),
@@ -37,15 +49,12 @@ ui <- dashboardPage(
   )
 )
 
+# Server logic
 server <- function(input, output, session) {
-  healthcareData <- reactive({
-    req(input$fileUpload) # Ensure a file is uploaded
-    inFile <- input$fileUpload
-    data <- read.csv(inFile$datapath, stringsAsFactors = FALSE)
-    data$DateReported <- as.Date(data$DateReported, format="%m/%d/%Y") # Correctly parsing the date
-    return(data)
-  })
+  # Fetch data from GitHub
+  healthcareData <- reactive(fetch_healthcare_data())
   
+  # UI output logic for stateInput, conditionInput, ageGroupInput, startDateInput, endDateInput
   output$stateInput <- renderUI({
     selectInput("state", "State", choices = c("All", unique(healthcareData()$State)), selected = "All")
   })
@@ -58,19 +67,18 @@ server <- function(input, output, session) {
     selectInput("ageGroup", "Age Group", choices = c("All", unique(healthcareData()$AgeGroup)), selected = "All")
   })
   
-  # Separate UI outputs for start and end date inputs
   output$startDateInput <- renderUI({
-    data <- healthcareData()
-    dateInput("startDate", "Start Date", value = min(data$DateReported, na.rm = TRUE))
+    dateInput("startDate", "Start Date", value = min(healthcareData()$DateReported, na.rm = TRUE))
   })
   
   output$endDateInput <- renderUI({
-    data <- healthcareData()
-    dateInput("endDate", "End Date", value = max(data$DateReported, na.rm = TRUE))
+    dateInput("endDate", "End Date", value = max(healthcareData()$DateReported, na.rm = TRUE))
   })
   
+  # Filter the data based on user-selected filters
   filteredData <- reactive({
     data <- healthcareData()
+    # Apply various filters according to user input
     if(input$state != "All") {
       data <- data %>% filter(State == input$state)
     }
@@ -83,16 +91,13 @@ server <- function(input, output, session) {
     if (!is.null(input$startDate) && !is.null(input$endDate)) {
       data <- data %>% filter(DateReported >= input$startDate & DateReported <= input$endDate)
     }
-    return(data)
+    data
   })
   
+  # Display total cases and average cases
   output$totalCases <- renderValueBox({
     data <- filteredData()
-    if(nrow(data) > 0) {
-      sum_cases <- sum(data$CasesReported, na.rm = TRUE)
-    } else {
-      sum_cases <- 0
-    }
+    sum_cases <- sum(data$CasesReported, na.rm = TRUE)
     valueBox(
       formatC(sum_cases, format = "d", big.mark = ","),
       "Total Cases",
@@ -103,11 +108,9 @@ server <- function(input, output, session) {
   
   output$averageCases <- renderValueBox({
     data <- filteredData()
-    if(nrow(data) > 0 && sum(data$CasesReported, na.rm = TRUE) > 0) {
-      avg_cases <- round(mean(data$CasesReported, na.rm = TRUE), 2)
-    } else {
-      avg_cases <- NA
-    }
+    avg_cases <- ifelse(nrow(data) > 0 && sum(data$CasesReported, na.rm = TRUE) > 0,
+                        round(mean(data$CasesReported, na.rm = TRUE), 2),
+                        NA)
     valueBox(
       avg_cases,
       "Average Cases per Report",
@@ -116,8 +119,10 @@ server <- function(input, output, session) {
     )
   })
   
+  # Render the trend plot
   output$trendPlot <- renderPlotly({
-    gg <- ggplot(filteredData(), aes(x = as.Date(DateReported), y = CasesReported, group = 1)) +
+    req(filteredData())
+      gg <- ggplot(filteredData(), aes(x = DateReported, y = CasesReported, group = 1)) +
       geom_line() +
       geom_point() +
       theme_minimal() +
@@ -127,6 +132,13 @@ server <- function(input, output, session) {
            y = "Cases Reported")
     ggplotly(gg)
   })
+  
+  # Render the data table
+  output$data_table <- DT::renderDataTable({
+    req(healthcareData())
+    DT::datatable(healthcareData(), options = list(pageLength = 10))
+  })
 }
 
-shinyApp(ui = ui, server = server)
+# Run the Shiny app
+shinyApp(ui, server)
