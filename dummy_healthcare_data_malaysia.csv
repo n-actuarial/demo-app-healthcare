@@ -1,4 +1,4 @@
-HospitalID,State,Condition,AgeGroup,Gender,CasesReported,DateReported
+HospitaliD,State,Condition,AgeGroup,Gender,CasesReported,DateReported
 1,Penang,Dengue,46-60,Male,27,1/1/2021
 2,Malacca,Diabetes,31-45,Female,8,1/2/2021
 3,Terengganu,COVID-19,61+,Female,83,1/3/2021
