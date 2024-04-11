@@ -65,8 +65,7 @@ ui <- dashboardPage(
       uiOutput("ageGroupInput"),
       uiOutput("startDateInput"),
       uiOutput("endDateInput")
-    ),
-    style = sprintf("background-color: %s; color: #fff;", colors$darkGreen)
+    )
   ),
   dashboardBody(
     tags$head(tags$style(HTML(custom_css))),
