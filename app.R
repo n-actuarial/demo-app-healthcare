@@ -60,6 +60,8 @@ ui <- dashboardPage(
   dashboardSidebar(
     sidebarMenu(
       menuItem("Dashboard", tabName = "dashboard", icon = icon("dashboard")),
+      menuItem("Data", tabName = "data", icon = icon("database")),
+      menuItem("Statistics", tabName = "statistics", icon = icon("bar-chart-o")),
       uiOutput("stateInput"),
       uiOutput("conditionInput"),
       uiOutput("ageGroupInput"),
@@ -78,9 +80,21 @@ ui <- dashboardPage(
               ),
               fluidRow(
                 box(plotlyOutput("trendPlot"), status = "primary", solidHeader = TRUE, width = 12)
-              ),
+              )
+      ),
+      tabItem(tabName = "data",
               fluidRow(
                 box(DT::dataTableOutput("data_table"), status = "primary", solidHeader = TRUE, width = 12)
+              )
+      ),
+      tabItem(tabName = "statistics",
+              fluidRow(
+                box(plotlyOutput("topStatesPlot"), status = "primary", solidHeader = TRUE, width = 6),
+                box(plotlyOutput("topConditionsPlot"), status = "primary", solidHeader = TRUE, width = 6)
+              ),
+              fluidRow(
+                box(plotlyOutput("topAgeGroupsPlot"), status = "primary", solidHeader = TRUE, width = 6),
+                box(plotlyOutput("casesOverTimePlot"), status = "primary", solidHeader = TRUE, width = 6)
               )
       )
     ),
@@ -175,6 +189,67 @@ server <- function(input, output, session) {
   output$data_table <- DT::renderDataTable({
     req(healthcareData())
     DT::datatable(healthcareData(), options = list(pageLength = 10))
+  })
+  
+  # Render the plots for the "Statistics" tab
+  output$topStatesPlot <- renderPlotly({
+    req(healthcareData())
+    top_states <- healthcareData() %>%
+      group_by(State) %>%
+      summarise(total_cases = sum(CasesReported, na.rm = TRUE)) %>%
+      top_n(5, total_cases)
+    
+    gg <- ggplot(top_states, aes(x = State, y = total_cases)) +
+      geom_bar(stat = "identity") +
+      labs(title = "Top States with Most Cases", x = "State", y = "Total Cases") +
+      theme_minimal()
+    
+    ggplotly(gg)
+  })
+  
+  output$topConditionsPlot <- renderPlotly({
+    req(healthcareData())
+    top_conditions <- healthcareData() %>%
+      group_by(Condition) %>%
+      summarise(total_cases = sum(CasesReported, na.rm = TRUE)) %>%
+      top_n(5, total_cases)
+    
+    gg <- ggplot(top_conditions, aes(x = Condition, y = total_cases)) +
+      geom_bar(stat = "identity") +
+      labs(title = "Top Conditions", x = "Condition", y = "Total Cases") +
+      theme_minimal()
+    
+    ggplotly(gg)
+  })
+  
+  output$topAgeGroupsPlot <- renderPlotly({
+    data <- filteredData()
+    top_age_groups <- data %>%
+      group_by(AgeGroup) %>%
+      summarise(total_cases = sum(CasesReported, na.rm = TRUE)) %>%
+      arrange(desc(total_cases))
+    
+    gg <- ggplot(top_age_groups, aes(x = reorder(AgeGroup, total_cases), y = total_cases)) +
+      geom_bar(stat = "identity", fill = colors$darkBlue) +
+      labs(title = "Top Age Groups with Most Cases", x = "Age Group", y = "Total Cases") +
+      theme_minimal() +
+      theme(axis.text.x = element_text(angle = 45, hjust = 1))
+    
+    ggplotly(gg)
+  })
+  
+  output$casesOverTimePlot <- renderPlotly({
+    req(healthcareData())
+    cases_over_time <- healthcareData() %>%
+      group_by(DateReported) %>%
+      summarise(cumulative_cases = sum(CasesReported, na.rm = TRUE))
+    
+    gg <- ggplot(cases_over_time, aes(x = DateReported, y = cumulative_cases)) +
+      geom_line() +
+      labs(title = "Cases Over Time", x = "Date", y = "Cumulative Cases") +
+      theme_minimal()
+    
+    ggplotly(gg)
   })
 }
 
