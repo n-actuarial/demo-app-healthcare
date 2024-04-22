@@ -61,7 +61,7 @@ ui <- dashboardPage(
     sidebarMenu(
       menuItem("Dashboard", tabName = "dashboard", icon = icon("dashboard")),
       menuItem("Data", tabName = "data", icon = icon("database")),
-      menuItem("Statistics", tabName = "statistics", icon = icon("bar-chart-o")),
+      menuItem("Statistics", tabName = "statistics", icon = icon("bar-chart")),
       uiOutput("stateInput"),
       uiOutput("conditionInput"),
       uiOutput("ageGroupInput"),
@@ -94,7 +94,7 @@ ui <- dashboardPage(
               ),
               fluidRow(
                 box(plotlyOutput("topAgeGroupsPlot"), status = "primary", solidHeader = TRUE, width = 6),
-                box(plotlyOutput("casesOverTimePlot"), status = "primary", solidHeader = TRUE, width = 6)
+                box(plotlyOutput("newChart"), status = "primary", solidHeader = TRUE, width = 6)
               )
       )
     ),
@@ -193,8 +193,8 @@ server <- function(input, output, session) {
   
   # Render the plots for the "Statistics" tab
   output$topStatesPlot <- renderPlotly({
-    req(healthcareData())
-    top_states <- healthcareData() %>%
+    req(filteredData())
+    top_states <- filteredData() %>%
       group_by(State) %>%
       summarise(total_cases = sum(CasesReported, na.rm = TRUE)) %>%
       top_n(5, total_cases)
@@ -208,8 +208,8 @@ server <- function(input, output, session) {
   })
   
   output$topConditionsPlot <- renderPlotly({
-    req(healthcareData())
-    top_conditions <- healthcareData() %>%
+    req(filteredData())
+    top_conditions <- filteredData() %>%
       group_by(Condition) %>%
       summarise(total_cases = sum(CasesReported, na.rm = TRUE)) %>%
       top_n(5, total_cases)
@@ -222,6 +222,22 @@ server <- function(input, output, session) {
     ggplotly(gg)
   })
   
+  # New chart suggestion: Average Cases per Day
+  output$newChart <- renderPlotly({
+    req(filteredData())
+    avg_cases_per_day <- filteredData() %>%
+      group_by(DateReported) %>%
+      summarise(avg_cases = mean(CasesReported, na.rm = TRUE))
+    
+    gg <- ggplot(avg_cases_per_day, aes(x = DateReported, y = avg_cases)) +
+      geom_line() +
+      labs(title = "Average Cases per Day", x = "Date", y = "Average Cases") +
+      theme_minimal()
+    
+    ggplotly(gg)
+  })
+  
+  # Update the top age groups plot
   output$topAgeGroupsPlot <- renderPlotly({
     data <- filteredData()
     top_age_groups <- data %>%
@@ -234,20 +250,6 @@ server <- function(input, output, session) {
       labs(title = "Top Age Groups with Most Cases", x = "Age Group", y = "Total Cases") +
       theme_minimal() +
       theme(axis.text.x = element_text(angle = 45, hjust = 1))
-    
-    ggplotly(gg)
-  })
-  
-  output$casesOverTimePlot <- renderPlotly({
-    req(healthcareData())
-    cases_over_time <- healthcareData() %>%
-      group_by(DateReported) %>%
-      summarise(cumulative_cases = sum(CasesReported, na.rm = TRUE))
-    
-    gg <- ggplot(cases_over_time, aes(x = DateReported, y = cumulative_cases)) +
-      geom_line() +
-      labs(title = "Cases Over Time", x = "Date", y = "Cumulative Cases") +
-      theme_minimal()
     
     ggplotly(gg)
   })
