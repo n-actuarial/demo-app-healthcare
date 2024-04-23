@@ -144,27 +144,25 @@ server <- function(input, output, session) {
   })
   
   # Display total cases and average cases
-  output$totalCases <- renderValueBox({
+  output$totalCases <- renderUI({
     data <- filteredData()
     sum_cases <- sum(data$CasesReported, na.rm = TRUE)
-    valueBox(
-      formatC(sum_cases, format = "d", big.mark = ","),
-      "Total Cases",
-      icon = icon("hospital"),
-      color = "red"
+    div(
+      style = sprintf("background-color: %s; color: black; padding: 20px; border-radius: 15px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);", colors$lightYellow),
+      h3(style = "margin-bottom: 10px; font-weight: bold; font-size: 18px; color: black;", "Total Cases"),
+      h2(style = "margin: 0; font-size: 32px; color: black;", icon("hospital"), formatC(sum_cases, format = "d", big.mark = ","))
     )
   })
   
-  output$averageCases <- renderValueBox({
+  output$averageCases <- renderUI({
     data <- filteredData()
     avg_cases <- ifelse(nrow(data) > 0 && sum(data$CasesReported, na.rm = TRUE) > 0,
                         round(mean(data$CasesReported, na.rm = TRUE), 2),
                         NA)
-    valueBox(
-      avg_cases,
-      "Average Cases per Report",
-      icon = icon("medkit"),
-      color = "blue"
+    div(
+      style = sprintf("background-color: %s; color: black; padding: 20px; border-radius: 15px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);", colors$lightCyan),
+      h3(style = "margin-bottom: 10px; font-weight: bold; font-size: 18px; color: black;", "Cases per Report"),
+      h2(style = "margin: 0; font-size: 32px; color: black;", icon("medkit"), avg_cases)
     )
   })
   
