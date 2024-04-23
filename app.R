@@ -18,41 +18,38 @@ fetch_healthcare_data <- function() {
 
 # Define your color scheme
 colors <- list(
-  darkGreen   = "#006400",
-  orange      = "#FFA500",
-  lightGreen  = "#90EE90",
-  lightBlue   = "#ADD8E6",
-  darkBlue    = "#00008B",
-  teal        = "#008080",
-  lightOrange = "#FFD580",
-  darkOrange  = "#FF8C00",
-  yellow      = "#FFFF00"
+  skyBlue     = "#69D2E6",
+  lightCyan   = "#A5DCD7",
+  lightYellow = "#E1E6CD",
+  orange      = "#F58732",
+  redOrange   = "#FA6900",
+  appleGreen  = "#64C864"
 )
 
 # Custom CSS for color scheme
 custom_css <- sprintf("
 .skin-blue .main-header .logo {
-  background-color: %s; /* darkGreen */
+  background-color: %s; /* skyBlue */
   color: #fff;
 }
 .skin-blue .main-header .navbar {
   background-color: %s; /* orange */
 }
 .skin-blue .sidebar a {
-  color: %s; /* lightGreen */
+  color: %s; /* lightCyan */
 }
 .skin-blue .sidebar .sidebar-menu > li.active > a {
-  border-left-color: %s; /* lightBlue */
+  border-left-color: %s; /* lightYellow */
 }
 .skin-blue .box {
-  border-top-color: %s; /* darkBlue */
+  border-top-color: %s; /* lightYellow */
 }
 .btn-primary {
-  background-color: %s; /* teal */
-  border-color: %s; /* darkOrange */
+  background-color: %s; /* appleGreen */
+  border-color: %s; /* redOrange */
 }
-", colors$darkGreen, colors$orange, colors$lightGreen, colors$lightBlue,
-colors$darkBlue, colors$teal, colors$darkOrange)
+", colors$skyBlue, colors$orange, colors$lightCyan, colors$lightYellow,
+colors$lightYellow, colors$appleGreen, colors$redOrange)
 
 # UI definition
 ui <- dashboardPage(
@@ -200,7 +197,7 @@ server <- function(input, output, session) {
       top_n(5, total_cases)
     
     gg <- ggplot(top_states, aes(x = State, y = total_cases)) +
-      geom_bar(stat = "identity") +
+      geom_bar(stat = "identity", fill = colors$skyBlue) +
       labs(title = "Top States with Most Cases", x = "State", y = "Total Cases") +
       theme_minimal()
     
@@ -215,29 +212,13 @@ server <- function(input, output, session) {
       top_n(5, total_cases)
     
     gg <- ggplot(top_conditions, aes(x = Condition, y = total_cases)) +
-      geom_bar(stat = "identity") +
+      geom_bar(stat = "identity", fill = colors$lightCyan) +
       labs(title = "Top Conditions", x = "Condition", y = "Total Cases") +
       theme_minimal()
     
     ggplotly(gg)
   })
   
-  # New chart suggestion: Average Cases per Day
-  output$newChart <- renderPlotly({
-    req(filteredData())
-    avg_cases_per_day <- filteredData() %>%
-      group_by(DateReported) %>%
-      summarise(avg_cases = mean(CasesReported, na.rm = TRUE))
-    
-    gg <- ggplot(avg_cases_per_day, aes(x = DateReported, y = avg_cases)) +
-      geom_line() +
-      labs(title = "Average Cases per Day", x = "Date", y = "Average Cases") +
-      theme_minimal()
-    
-    ggplotly(gg)
-  })
-  
-  # Update the top age groups plot
   output$topAgeGroupsPlot <- renderPlotly({
     data <- filteredData()
     top_age_groups <- data %>%
@@ -246,10 +227,24 @@ server <- function(input, output, session) {
       arrange(desc(total_cases))
     
     gg <- ggplot(top_age_groups, aes(x = reorder(AgeGroup, total_cases), y = total_cases)) +
-      geom_bar(stat = "identity", fill = colors$darkBlue) +
+      geom_bar(stat = "identity", fill = colors$lightYellow) +
       labs(title = "Top Age Groups with Most Cases", x = "Age Group", y = "Total Cases") +
       theme_minimal() +
       theme(axis.text.x = element_text(angle = 45, hjust = 1))
+    
+    ggplotly(gg)
+  })
+  
+  output$newChart <- renderPlotly({
+    req(filteredData())
+    avg_cases_per_day <- filteredData() %>%
+      group_by(DateReported) %>%
+      summarise(avg_cases = mean(CasesReported, na.rm = TRUE))
+    
+    gg <- ggplot(avg_cases_per_day, aes(x = DateReported, y = avg_cases)) +
+      geom_line(color = colors$orange) +
+      labs(title = "Average Cases per Day", x = "Date", y = "Average Cases") +
+      theme_minimal()
     
     ggplotly(gg)
   })
