@@ -35,26 +35,20 @@ custom_css <- sprintf("
 .skin-blue .main-header .navbar {
   background-color: %s; /* orange */
 }
-.skin-blue .sidebar a {
+.skin-blue .sidebar-menu a {
   color: %s; /* lightCyan */
 }
-.skin-blue .sidebar .sidebar-menu > li.active > a {
-  border-left-color: %s; /* lightYellow */
+.skin-blue .sidebar-menu li.active > a {
+  background-color: %s; /* lightYellow */
+  color: #000; /* Black text color for active menu item */
 }
-.skin-blue .box {
-  border-top-color: %s; /* lightYellow */
-}
-.btn-primary {
-  background-color: %s; /* appleGreen */
-  border-color: %s; /* redOrange */
-}
-", colors$skyBlue, colors$orange, colors$lightCyan, colors$lightYellow,
-colors$lightYellow, colors$appleGreen, colors$redOrange)
+", colors$skyBlue, colors$orange, colors$lightCyan, colors$lightYellow)
 
 # UI definition
 ui <- dashboardPage(
   dashboardHeader(title = "Malaysia Healthcare Analytics"),
   dashboardSidebar(
+    tags$head(tags$style(HTML(custom_css))),
     sidebarMenu(
       menuItem("Dashboard", tabName = "dashboard", icon = icon("dashboard")),
       menuItem("Data", tabName = "data", icon = icon("database")),
