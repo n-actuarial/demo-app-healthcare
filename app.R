@@ -46,7 +46,15 @@ custom_css <- sprintf("
 
 # UI definition
 ui <- dashboardPage(
-  dashboardHeader(title = "Malaysia Healthcare Analytics"),
+  dashboardHeader(
+    title = "Healthcare Analytics",
+    # Custom logo with a link
+    tags$li(
+      class = "dropdown",
+      tags$a(href = "https://www.n-actuarial.com/", 
+             "Powered by : ", tags$img(src = "https://github.com/elvingggg/demo-app-healthcare/raw/main/NASlogo.png", height = 20, width = 164))
+    )
+  ),
   dashboardSidebar(
     tags$head(tags$style(HTML(custom_css))),
     sidebarMenu(
